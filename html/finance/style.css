@@ -329,7 +329,7 @@ input:checked + li > label {
 /* Course videos starts*/
 
 .courses{
-  background-color: var(--darkBlue);
+  background-color: var(--white);
   padding-top: 7rem;
   padding-bottom: 100px;
 }
@@ -345,7 +345,7 @@ input:checked + li > label {
   height: 600px;
   background-color: var(--white);
   border-radius: 20px;
-  box-shadow: 0px 0px 10px var(--lightBlue);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.467);
 }
 .bigRow .videos a{
   color: black;
@@ -380,7 +380,7 @@ input:checked + li > label {
   width: 25%;
   background-color: var(--white);
   border-radius: 20px;
-  box-shadow: 0px 0px 10px var(--lightBlue);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.467);
 }
 .smallRow .nextvid a{
   color: black;

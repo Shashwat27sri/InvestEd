@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+/* custom color template */
+:root{
+  --darkBlue:#0E2C40;
+  --midBLUE: #1A4A5A;
+  --lightBlue: #148D8D;
+  --yellow: #C1E1A7;
+  --orange: #EFBC75;
+  --white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:var(--white);
+  font-family: 'Poppins', sans-serif;
+}
+section{
+  min-height: 100vh;
+  padding: 10px 5%;
+  width: 100vw;
+}
+.heading{
+  color: var(--white);
+  text-align: center;
+  font-size: 7rem;
+  padding-bottom: 30px;
+}
+.break{
+  width: 600px;
+  background-color: var(--white);
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* navbar starts */
+
+.header{
+  box-sizing: content-box;
+  background-color:var(--darkBlue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.3);
+  padding: 1.7rem 8%;
+  padding-bottom: 2rem;
+  height: 3.0rem;
+}
+.navbar{
+  box-sizing: border-box;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap:wrap;
+  position:static;
+}
+
+.navbar .logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.0rem;
+  
+}
+.navbar .logo img{
+  height: 5.5rem; 
+}
+.navbar .logo a{
+  text-decoration: none;
+}
+.navbar .logo a p{
+  color: var(--white);
+  font-family: 'Poppins';
+  font-size: 2rem;
+  padding-left: 6.5px;
+  padding-top: 20px;
+}
+
+.header .navbar .tags ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.header .navbar .tags ul li {
+  margin-left: 2.5rem;
+}
+.header .navbar .tags ul li a {
+  font-size: 1.57rem;
+  color:var(--white);
+  font-weight: 600;
+  text-decoration:none;
+  letter-spacing: 0.04rem;
+  transition: 0.2s;
+}
+
+.header .navbar .tags ul li a.active,
+.header .navbar .tags ul li a:hover {
+  color: var(--white);
+  border-bottom: 0.2rem solid var(--white);
+  padding: 0.5rem 0;
+}
+
+/* navbar done */
+
+
+
+

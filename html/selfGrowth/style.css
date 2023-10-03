@@ -18,7 +18,7 @@
   transition: all 0.2s linear;
 }
 html{
-  font-size: 62.5%;
+  font-size: 72.5%;
   overflow-x: hidden;
   scroll-behavior:smooth;
 }
@@ -144,7 +144,7 @@ section{
   font-size: 6rem;
 }
 .herosection .details p{
-  width: 40%;
+  width: 50%;
   position: absolute;
   color: #000000;
   /* line-height: 85%; */
@@ -157,18 +157,117 @@ section{
 .herosection .heroImg {
   position: absolute;
   bottom: 0%;
-  left: 45%;
-  width: 55%;
+  left: 55%;
+  width: 50%;
 }
 
 .herosection .heroImg img{
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   object-fit: cover;
-  
+  animation: 2s infinite alternate pulse ;
+  animation-duration: 4s;
+}
+@keyframes pulse {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
 }
 
 /* herosection done */
 
 
 
+/*  content include start*/
+.content{
+  padding-top:10rem ;
+}
+.content .container{
+  display: flex;
+  margin: auto;
+
+  /* flex-wrap: wrap; */
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px; */
+  /* wra */
+}
+
+.container .one {
+  position: absolute;
+  left: 0%;
+  width: 50%;
+}
+
+.content .container .one img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  animation: 2s infinite alternate pulse ; */
+  /* animation-duration: 4s;
+  /* filter: grayscale(15); */
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.twoo{
+  position: absolute;
+  margin-top: 13rem;
+  left: 43%;
+  width: 55%;
+  text-align: center;
+}
+.twoo h3{
+  font-size: 35px;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.two1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.two .box{
+  flex: 1 1 300px;
+ 
+  width: 300px;
+  height: 130px;
+  /* background-color: #13486b; */
+  border-radius: 10px;
+  border: 2px dashed var(--lightBlue);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.two .box .internalImg{
+  width: 100px;
+  height: 100%;
+  margin: 0px 20px;
+  left: 0%;
+} 
+.two .box .internalImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* margin-top: 10px; */
+}
+.two .box h3{
+  font-size: 18px;
+}
+/*  content include done*/

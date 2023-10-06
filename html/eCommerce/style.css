@@ -154,9 +154,9 @@ section{
 .herosection .details #caption{
   padding-top: 20rem;
   font-weight: 600;
-  font-size: x-large;
+  font-size: xx-large;
   margin-bottom: 8rem;
-  color: rgb(227, 181, 28);
+  color: rgb(251, 170, 8);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -190,3 +190,86 @@ section{
 
 
 /* herosection done */
+
+
+
+/* hot sale  */
+
+#hotBooks{
+  padding: 2%;
+  margin: auto;
+  /* background-color: #0E2C40; */
+}
+
+#hotBooks .heading{
+  color: #13486b;
+  font-family: poppin;
+}
+#hotBooks .heading span{
+  color: rgb(251, 166, 8);
+}
+.carousel {
+  background: #f1c896;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.carousel-cell {
+  width: 25%;
+  height: 420px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #f7e8d6d0;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+.carousel-cell .bookImg{
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.carousel-cell img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+
+.carousel-cell .bookDesc{
+  /* padding: auto; */
+  font-size: 20px;
+  padding-left: 5%;
+  padding-top: 18px;
+
+}
+#name{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+#author{
+  font-size: 16px;
+}
+#price{
+  color: rgb(168, 89, 5);
+  font-size: 16px;
+}
+
+
+
+/* hot sale done */
+
+.financeBooks{
+  padding: 2%;
+  margin: auto;
+  background:linear-gradient(to top,#f1c896,white, #f1c896);
+}
+.financeBooks .heading{
+  color: #13486b;
+  font-family: poppin;
+}
+.financeBooks .heading span{
+  color: rgb(251, 166, 8);
+}

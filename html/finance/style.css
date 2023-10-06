@@ -333,6 +333,13 @@ input:checked + li > label {
   padding-top: 7rem;
   padding-bottom: 100px;
 }
+.courses .heading{
+  color: var(--white);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--darkBlue);
+  -webkit-text-fill-color: white;
+  
+}
 .bigRow{
   display: flex;
   justify-content: center;
@@ -342,7 +349,6 @@ input:checked + li > label {
 }
 .bigRow .videos {
   width: 500px;
-  height: 600px;
   background-color: var(--white);
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.467);
@@ -400,6 +406,80 @@ input:checked + li > label {
   padding: 20px;
 } 
 /* Course videos ends*/
+
+/* banner sections start */
+
+#banners{
+  padding: 0%;
+  
+
+}
+.bann{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap
+}
+#banners .heading{
+  color: var(--darkBlue);
+}
+#banners .heading span{
+  color: var(--white);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--darkBlue);
+  -webkit-text-fill-color: white;
+}
+
+#banners #firCol{
+  width: 740px;
+  /* height: 100rem; */
+  /* background-color: var(--darkBlue); */
+  font-size: 16px;
+  
+  color: var(--white);
+}
+#banners #secCol{
+  width: 765px;
+  margin: 10px;
+  /* background-color: var(--darkBlue); */
+  /* padding: 20px; */
+  /* border-radius: 20px; */
+  font-size: 16px;
+  /* margin-top: 30%; */
+  color: var(--white);
+}
+
+#banners #secCol .secCol{
+  background-color: var(--darkBlue);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+#banners #firCol .firCol{
+  background-color: var(--darkBlue);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+#banners #firCol .firCol #firImg{
+  width: 100%;
+  /* position: absolute; */
+  /* margin-left: 30px; */
+  /* object-fit: fill; */
+  border-radius: 10px 10px 0px 0px;
+  
+}
+#banners #secCol .secCol #secImg{
+  width: 100%;
+  padding: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+/* banner sections done */
 
 
 /* youVid courses start */
@@ -471,6 +551,12 @@ input:checked + li > label {
 .achievers h2{
   color: var(--darkBlue);
   font-family: "poppins";
+}
+.achievers .heading span{
+  color: var(--white);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--darkBlue);
+  -webkit-text-fill-color: white;
 }
 .owl-carousel{
   margin: auto ;

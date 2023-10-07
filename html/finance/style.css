@@ -416,7 +416,7 @@ input:checked + li > label {
 }
 .bann{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-wrap:wrap
 }
@@ -478,6 +478,22 @@ input:checked + li > label {
   border-radius: 10px 10px 0px 0px;
 }
 
+.circles{
+  margin-top: 0%;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #0e2c403a;
+  margin-left: 25rem;
+}
+.circles2{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #090d4658;
+  margin-left: 16rem;
+}
+
 
 /* banner sections done */
 
@@ -511,29 +527,31 @@ input:checked + li > label {
   border-radius: 10px;
   height: 350px;
 }
-.youVidContain a{
+.youVidContain {
   text-decoration: none;
 }
-.youVidContain a h3{
-  font-size: x-large;
-  padding-left: 20px;
-  padding-top: 10px;
+.youVidContain  h3{
+  font-size: 20px;
+  /* padding-left: 20px; */
+  padding-top: 16px;
   /* padding-bottom: 10px; */
-  color: black
-
+  color: black;
+  text-transform:uppercase;
 }
-.youVidContain a .img {
+.youVidContain  .img {
   width: 100%;
   
+  height: 80%;
 
 }
-.youVidContain a .img img{
+.youVidContain  .img iframe{
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: fill;
   border-radius: 10px;
 }
 
-.youVidContain a .img:hover{
+.youVidContain  .img:hover{
   transform: translateY(-10px);
 }
 
@@ -616,12 +634,12 @@ input:checked + li > label {
   padding-top: 3rem;
 }
 .face.back p{
-  font-size: 16px;
-  padding: 10px 10px;
+  font-size: 12px;
+  padding: 3px 10px;
 }
 .face.back .backDesc{
-  font-size: 16px;
-  padding: 15px 15px;
+  font-size: 14px;
+  padding: 5px 15px;
   text-align: justify;
 }
 .face.back a button{

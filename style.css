@@ -159,6 +159,7 @@ section{
 .problems{
   padding: 2%;
   min-height: 85vh;
+  padding-bottom: 20rem;
 }
 .carousel {
   background:var(--white);

@@ -301,6 +301,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .lectureContain .box1{
   background-color: rgba(230, 95, 117, 0.289);

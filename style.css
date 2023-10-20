@@ -366,7 +366,7 @@ section{
 .finance .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .finance .box-container .box .content {

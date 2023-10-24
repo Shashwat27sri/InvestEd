@@ -684,17 +684,19 @@ section{
   object-fit:cover;
   overflow: hidden;
   position: relative;
+  padding: 0.6px;
 }
 .carousel-cell1 img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:fill;
+  border-radius: 5px;
 }
 .carousel-cell1 .content{
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 85%;
+  top: 86%;
   left: 0;
   background: rgba(255, 255, 255, 0.819);
   /* filter:opacity(100px); */
@@ -706,10 +708,10 @@ section{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
+  height: 5rem;
   width: 100%;
   padding-left: 1rem;
-  background:rgba(255, 255, 255, 0);
+  background:rgb(255, 255, 255);
 }
 .carousel-cell1 .content .tag h3{
   font-size: 2rem;

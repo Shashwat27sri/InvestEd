@@ -124,20 +124,32 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 7rem;
 }
 .herosection .details{
   width: 200px;
-  padding-left: 0px;
   padding-top: 0px;
+}
+.herosection .details h2 #head1{
+  
+  font-size: 68px;
+  color:var(--midBLUE);
+  
+}
+.herosection .details h2 #head2{
+  font-size: 28px;
+  font-weight: 700;
+  /* margin-top: 40px; */
+  color:var(--midBLUE);
+  
 }
 
 .herosection .details h2{
   position: absolute;
-  color: #13486b;
-
-  top: 150px;
-  font-size: 6rem;
-  font-weight: 700;
+  color:orange;
+  
+  top: 180px;
+  font-size: 35px;  
 }
 
 /* herosection done */
@@ -227,7 +239,6 @@ section{
 .flickity-button:hover{
   background: rgba(255, 166, 0, 0.763);
 }
-
 /* problem faced done */
 
 
@@ -264,8 +275,10 @@ section{
 }
 .aboutUs p{
   color: var(--white);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
 }
 .solcontain{
   display: flex;
@@ -313,6 +326,7 @@ section{
   margin: 2rem;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 2px;
 }
 
 .cont{
@@ -1005,3 +1019,21 @@ padding: 25px 0px 28px;
 .copyRightArea p {
 color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 6px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track{
+  /* box-shadow:inset 0 0 6px rgb(45, 45, 45); */
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: orange; 
+  border-radius: 10px;
+}
+/* ####scroll bar designing ends #### */

@@ -851,9 +851,16 @@ padding: 100px 0px 0px;
 }
 
 .footer .widget1 p {
-font-size: 16px;
-color: rgba(255, 255, 255, .6);
+  font-size: 16px;
+  color: rgb(252, 252, 252);
+  margin-top: 26px;
+}
+
+.footer .widget1 p span {
+font-size: 19px;
+color: orange;
 margin-top: 26px;
+
 }
 
 .footer .socialLinks {

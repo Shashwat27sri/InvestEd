@@ -322,6 +322,7 @@ input:checked + li > label {
   width: 700px;
   color: var(--white);
   font-size: 15px;
+  text-align: justify;
 }
 
 /* About Finance done */
@@ -364,12 +365,16 @@ input:checked + li > label {
   border-radius: 20px 20px 0px 0px;
 }
 
+.bigRow .videos a .desc #topic{
+  text-align: center;
+  font-size: 18px;
+}
 .bigRow .videos a .desc p{
   font-size: 16px;
   line-height: 20px;
   font-family: 'Poppins', sans-serif;
   padding: 10px 20px;
-
+  text-align: justify;
 } 
 
 
@@ -398,7 +403,9 @@ input:checked + li > label {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-
+.smallRow .nextvid a .desc h1{
+  text-align: center;
+}
 .smallRow .nextvid a .desc p{
   font-size: 16px;
   line-height: 20px;
@@ -438,6 +445,9 @@ input:checked + li > label {
   
   color: var(--white);
 }
+#banners #firCol a{
+  color: #05a2f7;
+}
 #banners #secCol{
   width: 765px;
   margin: 10px;
@@ -454,6 +464,7 @@ input:checked + li > label {
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
+  text-align: justify;
   
 }
 #banners #firCol .firCol{
@@ -461,6 +472,7 @@ input:checked + li > label {
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
+  text-align: justify;
   
 }
 
@@ -485,6 +497,8 @@ input:checked + li > label {
   border-radius: 50%;
   background-color: #0e2c403a;
   margin-left: 25rem;
+  animation: 3s infinite alternate pulse;
+  animation-delay: 0s;
 }
 .circles2{
   width: 150px;
@@ -492,6 +506,40 @@ input:checked + li > label {
   border-radius: 50%;
   background-color: #090d4658;
   margin-left: 16rem;
+  animation: 3s infinite alternate pulse;
+  animation-delay: 2s;
+}
+.circles3{
+  margin-top: 20px;
+  width: 350px;
+  height: 350px;
+  border-radius: 46% 52% 70% 60%  ;
+  background-color: #0e2c403a;
+  margin-left: 26rem;
+  animation:3s infinite alternate pulse;
+  animation-delay: 3s;
+}
+.circles4{
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 70% 39% 40% 36%  ;
+  background-color: #090d4658;
+  margin-left: 15rem;
+  animation: 3s infinite alternate pulse;
+  animation-delay: 0s;
+}
+
+
+
+
+@keyframes pulse {
+0% {
+  transform: translateY(-20px);
+}
+100% {
+  transform: translateY(30px);
+}
 }
 
 

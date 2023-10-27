@@ -179,8 +179,9 @@ section{
 
 #img-inner img {
   width: 100%;
-  object-fit: fill;
+  object-fit:fill;
   height: 75vh;
+  
 }
 
 
@@ -251,7 +252,7 @@ input:checked + li > label {
   overflow: hidden;
 }
 .nextvidhero a{
-  color: black;
+  color: white;
   text-decoration: none;
   height: 100%;
   
@@ -263,6 +264,7 @@ input:checked + li > label {
   opacity: 0;
   padding-top: 20px;
   padding-right: 20px;
+  
 
 
 }
@@ -277,13 +279,39 @@ input:checked + li > label {
   transition: all 0.1s linear;
   
 }
+.nextvidhero a .desc h1{
+  font-size: 28px;
+  margin-left: 60px;
+
+}
 
 .nextvidhero a .desc p{
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   font-family: 'Poppins', sans-serif;
-  padding: 30px;
+  padding: 40px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  width: 80%;
+  margin-left: 40px;
 
+}
+.nextvidhero a .desc button{
+  padding: 12px 30px;
+  margin-left: 80px;
+  border-radius: 50px;
+  z-index: 1000;
+  border: 1px solid black;
+  background: linear-gradient( 45deg ,rgb(0, 204, 204), rgb(30, 30, 255) , purple );
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(207, 205, 211);
+  cursor: pointer;
+  
+}
+.nextvidhero a .desc:hover button{
+  box-shadow: 5px 5px 10px black;
+  transition: 1s ease-in;
 }
 
 /* overlaping  done */
@@ -299,7 +327,7 @@ input:checked + li > label {
   background-color: var(--darkBlue);
   padding: 5rem;
   min-height: 70vh;
-  padding-top: 12rem;
+  padding-top: 4rem;
 }
 .abtfinContainer{
   display: flex;

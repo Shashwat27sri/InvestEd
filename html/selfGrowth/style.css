@@ -405,7 +405,7 @@ section{
   justify-content: center;
 }
 .lectureContain .box1{
-  background-color: rgba(230, 95, 117, 0.289);
+  background-color: rgba(89, 186, 218, 0.392);
   width: 600px ;
   height: 250px;
   margin: 40px 35px;
@@ -486,9 +486,16 @@ padding: 100px 0px 0px;
 }
 
 .footer .widget1 p {
-font-size: 16px;
-color: rgba(255, 255, 255, .6);
+  font-size: 16px;
+  color: rgb(252, 252, 252);
+  margin-top: 26px;
+}
+
+.footer .widget1 p span {
+font-size: 19px;
+color: orange;
 margin-top: 26px;
+
 }
 
 .footer .socialLinks {
@@ -660,3 +667,20 @@ padding: 25px 0px 28px;
 .copyRightArea p {
 color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+/* #####scroll bar designing#### */
+::-webkit-scrollbar{
+  width: 6px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track{
+  /* box-shadow:inset 0 0 6px rgb(45, 45, 45); */
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: orange; 
+  border-radius: 10px;
+}
+/* ####scroll bar designing ends #### */

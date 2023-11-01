@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+/* custom color template */
+:root{
+  --darkBlue:#0E2C40;
+  --midBLUE: #1A4A5A;
+  --lightBlue: #148D8D;
+  --yellow: #C1E1A7;
+  --orange: #EFBC75;
+  --white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+html{
+  font-size: 72.5%;
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+section{
+  min-height: 100vh;
+  padding: 10px 5%;
+  width: 100vw;
+}
+body{
+  background:url(/assests/stock&bonds.jpg);
+  background-size: 100%;
+  
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+.innerCard{
+  margin:auto;
+  margin-top: 4%;
+  width: 85%;
+  height: 85vh;
+  background-color: rgba(137, 137, 137, 0.652);
+  border-radius: 20px;
+  border: 1.5px solid rgb(167, 167, 167);
+  backdrop-filter:blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px #252525;
+}
+
+.innerCard .first{
+  margin-right: 20px;
+}
+.innerCard .first h2{
+  color: var(--darkBlue);
+  font-size: xx-large;
+}
+.innerCard .first h2 span{
+  color: orange;
+}
+
+.innerCard .second{
+  margin-left: 30px;
+  text-align: center;
+  width: 500px;
+  
+}
+
+
+.innerCard .second button{
+  padding: 20px 75px;
+  color: red;
+  border-radius: 50px;
+  background:var(--lightBlue) ;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.innerCard .second button a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 32px;
+  font-family:poppin;
+  font-weight: 700;
+}

@@ -43,6 +43,8 @@ section{
 .header{
   box-sizing: content-box;
   background-color:var(--darkBlue);
+  /* background-color:transparent; */
+  /* backdrop-filter: blur(4px); */
   position: fixed;
   top: 0;
   left: 0;
